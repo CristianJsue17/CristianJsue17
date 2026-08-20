@@ -14,11 +14,11 @@
 </p>
 
 <h3 align="center">
-  💡 <em>En este mundo, lo difícil no es escribir código: es que siga funcionando cuando nadie lo recuerde.</em>
+  <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%23F5A623" width="28" height="28"> <em>En este mundo, lo difícil no es escribir código: es que siga funcionando cuando nadie lo recuerde.</em>
 </h3>
 
 <p align="center">
-  <sub>🎓 Estudiante de 9no ciclo de Ingeniería de Sistemas, Universidad Nacional Agraria de la Selva (UNAS), Perú.</sub>
+  <sub><img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%23888888" width="14" height="14"> Estudiante de Ingeniería de en Informática y Sistemas, Universidad Nacional Agraria de la Selva (UNAS), Perú.</sub>
 </p>
 
 <p align="center">
@@ -27,92 +27,48 @@
 
 ---
 
-## 🚀 Conocimientos Principales
+## <img src="https://api.iconify.design/lucide:rocket.svg?color=%2336BCF7" width="24" height="24"> Conocimientos Principales
 
-### 🏗️ Arquitectura y Patrones de Diseño
+### <img src="https://api.iconify.design/lucide:building-2.svg?color=%238B5CF6" width="22" height="22"> Arquitectura y Patrones de Diseño
 
 Diseño de sistemas distribuidos y resilientes ante fallos, priorizando el desacoplamiento del código base.
-- Arquitecturas: Hexagonal, Clean Architecture, Orientada a Eventos (EDA)
-- Patrones de Microservicios: CQRS, Saga, Circuit Breaker, Retry, Bulkhead
+- Arquitecturas: Hexagonal, Clean Architecture, Orientada a Eventos (EDA), Layers
+- Patrones: CQRS, Saga, Pub/Sub, Outbox, Circuit Breaker, Retry, Bulkhead
 
-### 🔄 Comunicación entre Servicios
+### <img src="https://api.iconify.design/lucide:refresh-cw.svg?color=%233B82F6" width="22" height="22"> Comunicación entre Servicios
 
 En sistemas distribuidos, la comunicación síncrona espera una respuesta antes de continuar; la asíncrona sigue su curso sin esperarla, coordinada mediante colas de mensajería.
 
-### ☁️ Infraestructura
+### <img src="https://api.iconify.design/lucide:cloud.svg?color=%2338BDF8" width="22" height="22"> Infraestructura
 
 Despliegue y operación de servicios en la nube, contenedorizados, reproducibles vía IaC y ejecutados sobre entornos Linux.
 
-### 🔌 Integración de Servicios Externos
+### <img src="https://api.iconify.design/lucide:plug-zap.svg?color=%23F59E0B" width="22" height="22"> Integración de Servicios Externos
 
 Integración de canales de mensajería y proveedores de identidad, coordinando autenticación y flujos con sistemas de terceros.
-- Mensajería: WhatsApp, Telegram, SMS (Twilio), SMTP
-- Identidad: JWT, OAuth
-
-### 🧩 Otros
-
-Aislamiento de datos por cliente y persistencia relacional.
-- Arquitectura de datos: Multitenant
 
 ---
 
-## 💼 Proyectos
+## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2336BCF7" width="24" height="24"> Stack Tecnológico
 
-### GLPSense (Tesis de pregrado)
-
-Software de monitoreo ambiental para concentración de GLP, con predicción mediante un modelo de Machine Learning (LSTM, Random Forest) entrenado por separado sobre datos de sensores MQ-5, MQ-6 y DHT22.
-
-**Stack:** Arduino Mega 2560, ESP32, MQTT, Spring Boot, PostgreSQL + TimescaleDB, Python/R
-
-### Vote UNAS (Sistema de Votaciones)
-
-Sistema de votación universitaria con 8 microservicios independientes.
-
-**Stack:** Spring Boot, React/TypeScript, AWS, Terraform, PostgreSQL, Docker, RabbitMQ
-
-### Migración de Stack Legacy (Experiencia profesional)
-
-Migración de un sistema en producción de Vue.js a React/TypeScript, con backend reconstruido en Fastify y PostgreSQL, incluyendo múltiples flujos de autenticación y aislamiento de datos por tenant.
-
-**Stack:** React/TypeScript, Fastify, PostgreSQL, arquitectura multitenant
-
-### Otros proyectos de práctica
-
-- Chatbot RAG con OpenAI GPT-4o-mini + ChromaDB + Gradio
-- SmartPersona API (Spring Boot + API Perú + OpenStreetMap + OpenWeatherMap + Gemini)
-- Sistema e-commerce con Saga Choreography y Optimistic Locking
-
----
-
-## 🛠️ Stack Tecnológico
-
-### 👨‍💻 Lenguajes de programación
+### <img src="https://api.iconify.design/lucide:code.svg?color=%2310B981" width="22" height="22"> Lenguajes de programación
 <p>
-    <img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white">
-    <img alt="Ruby" src="https://img.shields.io/badge/Ruby-%23CC342D.svg?logo=ruby&logoColor=white">
-    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?logo=typescript&logoColor=white">
+    <img alt="Lenguajes" src="https://skillicons.dev/icons?i=java,py,ruby,ts">
 </p>
 
-### 🧰 Frameworks y Librerías
+### <img src="https://api.iconify.design/lucide:package.svg?color=%23EC4899" width="22" height="22"> Frameworks y Librerías
 <p>
-    <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white">
-    <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-    <img alt="Fastify" src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white">
-    <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-    <img alt="Ruby on Rails" src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white">
+    <img alt="Frameworks" src="https://skillicons.dev/icons?i=spring,react,tailwind,fastapi,rails">
+    <img alt="Fastify" width="48" src="https://cdn.simpleicons.org/fastify/FFFFFF">
 </p>
 
-### 🗄️ Base de Datos y Cloud
+### <img src="https://api.iconify.design/lucide:database.svg?color=%238B5CF6" width="22" height="22"> Base de Datos y Cloud
 <p>
-    <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-%23336791.svg?logo=postgresql&logoColor=white">
-    <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
-    <img alt="AWS" src ="https://img.shields.io/badge/AWS-%23232F3E.svg?logo=amazon-aws&logoColor=white">
-    <img alt="Terraform" src="https://img.shields.io/badge/Terraform-%235835CC.svg?logo=terraform&logoColor=white">
+    <img alt="Base de Datos y Cloud" src="https://skillicons.dev/icons?i=postgres,aws,terraform">
+    <img alt="SQL Server" width="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg">
 </p>
 
-### 💻 Herramientas y Software
+### <img src="https://api.iconify.design/lucide:monitor.svg?color=%233B82F6" width="22" height="22"> Herramientas y Software
 <p>
     <img alt="Docker" src="https://img.shields.io/badge/Docker-%230db7ed.svg?logo=docker&logoColor=white">
     <img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white">
@@ -125,8 +81,7 @@ Migración de un sistema en producción de Vue.js a React/TypeScript, con backen
     <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white">
 </p>
 
-## 📈 Contribuciones
-
+## <img src="https://api.iconify.design/lucide:trending-up.svg?color=%2336BCF7" width="24" height="24"> Contribuciones
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=CristianJsue17&theme=github_dark" alt="GitHub Stats"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=CristianJsue17&theme=github_dark" alt="Top Languages"/>
@@ -139,5 +94,5 @@ Migración de un sistema en producción de Vue.js a React/TypeScript, con backen
 ---
 
 <p align="center">
-  🚀 Gracias por visitar mi perfil. Si te gustó lo que viste, no dudes en seguirme en <a href="https://github.com/CristianJsue17">GitHub</a>. ¡Buena suerte! 🌟
+  <img src="https://api.iconify.design/lucide:rocket.svg?color=%2336BCF7" width="18" height="18"> Gracias por visitar mi perfil. Si te gustó lo que viste, no dudes en seguirme en <a href="https://github.com/CristianJsue17">GitHub</a>. ¡Buena suerte! <img src="https://api.iconify.design/lucide:star.svg?color=%23F5A623" width="18" height="18">
 </p>
